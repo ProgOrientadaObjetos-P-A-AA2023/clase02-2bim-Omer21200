@@ -23,7 +23,9 @@ public class Ejecutor {
                 apellido, identificacion, edad);
         
         System.out.println(estDistancia);
-                
-        
+                //crear un objeto de estudiate presencia
+        EstudiantePresencial esPres=new EstudiantePresencial("Omer", 
+                "Benitez","1150460259", 23);
+        System.out.println(esPres);
     }
 }
